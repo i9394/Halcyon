@@ -7,7 +7,7 @@ layout: default
 
 **Effective Date:** 2026-04-18
 
-By installing or using the **Halcyon** mobile application (the "App"), you agree to these Terms of Service ("Terms"). If you disagree with any part of the Terms, do not use the App.
+By installing or using the **Viohold** mobile application (the "App"), you agree to these Terms of Service ("Terms"). If you disagree with any part of the Terms, do not use the App.
 
 ## 1. License
 
