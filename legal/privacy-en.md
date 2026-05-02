@@ -6,15 +6,15 @@ layout: default
 # Privacy Policy
 
 **Effective Date:** 2026-04-18
-**Last Updated:** 2026-04-18
+**Last Updated:** 2026-05-02
 
 Zeroneo Studio ("we", "us", or "our") operates the **Viohold** mobile application (the "App"). This Privacy Policy explains how we handle information when you use the App.
 
 ## Summary
 
-- **We do not collect, transmit, or share any personal information.**
+- **We do not collect any personally identifiable information.**
 - All browsing history, bookmarks, downloaded files, and settings stay on your device.
-- We have no servers receiving user data.
+- If the App crashes, an anonymous crash report is automatically sent to help us improve stability — you can turn this off in Settings.
 - The App does not contain third-party analytics, tracking SDKs, or advertising networks.
 
 ## Information Stored Locally on Your Device
@@ -45,11 +45,39 @@ The App requests the following iOS permissions, all used **only on your device**
 
 Denying any permission does not restrict other App functionality.
 
+## Diagnostics and Crash Information
+
+### 1. When We Collect
+When the App terminates unexpectedly (a crash), iOS generates a diagnostic report. The report is first stored locally on your device, then automatically sent to the developer on the App's next launch to help diagnose issues and improve stability.
+
+### 2. What We Collect
+We collect only de-identified technical information needed for crash triage:
+- App version and build number
+- Operating system version
+- Device model (e.g. iPhone15,3)
+- Time of crash
+
+### 3. What We Do NOT Collect Through This Channel
+- Browsing history, URLs, or search queries
+- Downloaded files, playback history, or saved content
+- Account information, email, or phone number
+- Device identifiers (e.g. IDFA, IDFV)
+- Location, contacts, photos, or any other privacy-sensitive permission data
+
+### 4. Purpose
+Collected information is used solely to investigate crashes and improve App stability. It is never used for advertising, user profiling, or any commercial analytics.
+
+### 5. Storage and Sharing
+Diagnostic information is sent to the developer's own feedback channel and used internally by the development team. It is never shared with or sold to any third party. Full system crash logs (MetricKit Diagnostic Payload) remain only on your local device under `Documents/metrics/` and are auto-deleted after 7 days.
+
+### 6. Your Control
+You can disable "Send crash diagnostics automatically" at any time via **Settings → Privacy & Security → Diagnostics**. Once disabled, the App will not send any diagnostic information.
+
 ## Third-Party Content and Services
 
 - **Web pages you visit**: The App is a web browser. Any website you visit may collect information about you according to its own privacy policy — we have no control over third-party websites.
 - **Ad-blocking rule lists**: The App periodically downloads public rule lists (Peter Lowe's list, EasyList China) from `pgl.yoyo.org` and `easylist-downloads.adblockplus.org` to update ad filters. These are **one-way downloads of public rule files**; no user data is sent.
-- **Safari Content Blocker Extension**: Rule lists are shared with the system Safari browser via an iOS App Group container (`group.com.cnkira.bbrowser`). Data stays on your device.
+- **Safari Content Blocker Extension**: Rule lists are shared with the system Safari browser via an iOS App Group container (`group.com.cnkira.viohold`). Data stays on your device.
 
 ## Data We Do NOT Collect
 
@@ -57,7 +85,9 @@ Denying any permission does not restrict other App functionality.
 - Your location (the App does not request location permission).
 - Your device identifier (IDFA / IDFV).
 - Your browsing activity, search queries, or tab contents.
-- Any analytics or crash reports.
+- Any tracking data or advertising analytics.
+
+> Note: After a crash, the App sends a de-identified diagnostic report (see the "Diagnostics and Crash Information" section); this can be disabled in Settings.
 
 ## Children's Privacy
 
