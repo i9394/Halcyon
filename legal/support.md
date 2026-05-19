@@ -13,7 +13,7 @@ Viohold 是一款专为在线视频、图片离线保存与无广告浏览打造
 
 ## Contact / 联系我们
 
-**Email / 邮箱:** [kirakingdx@gmail.com](mailto:kirakingdx@hotmail.com)
+**Email / 邮箱:** [kirakingdx@hotmail.com](mailto:kirakingdx@hotmail.com)
 
 If you encounter any issue or have any feedback, please reach out. We usually reply within 24 hours.
 
